@@ -1,9 +1,9 @@
 import h5py
 import numpy as np
 import matplotlib.pyplot as plt
-from skimage.transform import iradon
+from skimage.transform import radon, iradon
 import os
-
+import pdb
 # Directories
 data_dir = 'temp_data/observation_challenge'
 output_dir = 'reconstructions'
@@ -23,7 +23,7 @@ for i in range(29):
         with h5py.File(file_path, 'r') as f:
             # The sinogram seems to be stored as (projections, detectors)
             sinogram_raw = f['data'][0, :, :].astype(np.float64)
-
+            pdb.set_trace()
         # Transpose the sinogram to (detectors, projections) for iradon
         sinogram = sinogram_raw.T
 
