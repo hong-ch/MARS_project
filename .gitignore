@@ -2,5 +2,5 @@
 .vscode
 temp_data
 data
-project_dataset
+DICOM_data
 segmentation
