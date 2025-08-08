@@ -19,7 +19,7 @@ else:
 plt.imsave("C:/Users/user1/Desktop/Changhee/project/CT_to_radon/original_ct.png",CT,cmap='gray')
 
 # 3) radon 변환
-theta = np.linspace(0.0, 180.0, 180, endpoint=True)
+theta = np.linspace(0.0, 180.0, 90, endpoint=True)
 sinogram = radon(CT, theta=theta, circle=False)
 x = CT.shape[0]
 y = CT.shape[1]

@@ -1,6 +1,7 @@
 흉부CT프로젝트_Reconstruction_홍창희,한채원.pptx
 .vscode
 temp_data
-data
-DICOM_data
-segmentation
+data_DICOM
+LDCT_PNG
+nifti
+ULDCT_PNG
