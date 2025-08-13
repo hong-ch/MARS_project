@@ -6,3 +6,5 @@ LDCT_PNG
 nifti
 ULDCT_PNG
 data
+trails 
+*.pth 
