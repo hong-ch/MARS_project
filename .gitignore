@@ -8,3 +8,8 @@ ULDCT_PNG
 data
 trails 
 *.pth 
+*.csv
+*.yaml
+*.yml
+runs/
+logsResnet50_Edena_Binary_CL200withAgumentation2_5_16_2019_HU200/
